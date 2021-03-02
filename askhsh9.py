@@ -25,7 +25,6 @@ for i in range(len(stripped_list)):
         elif stripped_list[i] % 2 == 0:
             print(stripped_list[i])
             del stripped_list[i]
-print(lista1)
 k = 0
 for i in range(97, 122, 2):
     print(chr(i), ":", math.ceil(lista1[k] / count * 100) * "*")
